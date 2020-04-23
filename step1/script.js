@@ -32,13 +32,21 @@ console.log(econd);*/
 //let answer = +prompt("Чи є вам 18?", "Так");
 //console.log(typeof(answer));
 
-let incr = 10,
+/*let incr = 10,
     decr = 10;
 
 
 console.log(incr++);
 console.log(decr--);
 
-console.log(5%2); // 8:42-6 video ... Operators
+console.log(5%2); // 8:42-6 video ... Operators*/
+
+
+if (2*3 == 5) { //23.04.2020
+    console.log("Good")
+} else {
+    console.log("Is not good")
+
+}
 
 
