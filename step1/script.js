@@ -42,11 +42,38 @@ console.log(decr--);
 console.log(5%2); // 8:42-6 video ... Operators*/
 
 
-if (2*3 == 5) { //23.04.2020
-    console.log("Good")
-} else {
+// if (2*3 == 6) { //23.04.2020
+//     console.log("Good")
+// } else {
+//     console.log("Is not good")
+// }
+
+let num = 50;
+
+if (num < 49) {
     console.log("Is not good")
 
+} else if (num > 100) { // Вложені умови
+    console.log("Багато")
+} else {
+    console.log("Так") // Якщо врно та умова виконалась
+};
+
+
+switch (num) { // заміна, та більш актуальний варіант if
+    case num < 49: 
+        console.log('Is not good');
+        break;
+    case num > 100:
+        console.log("Багато");
+        break;
+    case num > 80:
+        console.log('Все ще забагато');
+        break;
+    case 40: // Якщо умова виконалась добре
+        console.log('Good');
+        break;
+    default: // Це на випадок якщо ні чого не виконається і тре щось вивести
+        console.log("Щось пішло не добре");
+        break;
 }
-
-
